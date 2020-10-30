@@ -1,9 +1,8 @@
-# ice_divide_elmer
+# Ice Rise Development with Elmer
 Ice Divide simulations run with ElmerIce
 Janie Levin
 Last Updated: Oct 30,2020
-########
-###### Contents######
+## Contents
 
 
 1. icerise_docker_template.sif = Elmer SIF template file  
@@ -18,7 +17,7 @@ Last Updated: Oct 30,2020
 	- enters docker container with Elmer installed and executes ElmerGrid and ElmerSolver 
 	- dumps Surface.dat and Results.dat for each case into Google Bucket 
 
-################# Instructions #######
+## Instruction:
 To run: 
 Step 1: Set up runvalues.txt with the cases of interest
 Step 2: Detach screen (Linux environment)
