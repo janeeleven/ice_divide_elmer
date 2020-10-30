@@ -1,0 +1,5 @@
+14000 0.2 0 icerise_docker_template.sif
+13500 0.2 0 icerise_docker_template.sif
+13000 0.2 0 icerise_docker_template.sif
+12500 0.2 0 icerise_docker_template.sif
+11000 0.2 0 icerise_docker_template.sif
