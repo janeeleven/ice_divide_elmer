@@ -20,9 +20,12 @@ Last Updated: Oct 30,2020
 ## Instruction:
 To run: 
 Step 1: Set up runvalues.txt with the cases of interest
+
 Step 2: Detach screen (Linux environment)
 	> screen
+
 Step 3: Run the command 
 	> source runfunc.sh 
+
 Step 4: Detach screen: "Ctrl-A", "D"
 It will run on detached screen. Reconnect to screen with screen -r to check on progress.
