@@ -35,8 +35,7 @@ docker exec ${dockcont} ElmerSolver shared_directory/icerise_run/Case_${xa}_${a0
 
 #gsutil cp icerise_run/Surface.dat gs://ldeo-glaciology/elmer_janie/run_outputs/Surface_${xa}_${a0}_${DivPos}.dat
 #gsutil cp icerise_run/src/Results.dat gs://ldeo-glaciology/elmer_janie/run_outputs/Results_${xa}_${a0}_${DivPos}.dat
-gsutil cp icerise_run/Surface.dat ${outputbucket}Surface_${xa}_${a0}_${DivPos}.dat
-gsutil cp icerise_run/mesh/Results.dat ${outputbucket}Results_${xa}_${a0}_${DivPos}.dat
+gsutil cp icerise_run/mesh/*.vtu ${outputbucket}run_${xa}_${a0}_${DivPos}/
 
 echo [`date +"%D %T"`] Finished Case_${xa}_${a0}_${DivPos} | tee -a log.txt
 done < ${inputfil}
