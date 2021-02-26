@@ -20,12 +20,12 @@ $QG=1.5779
 
 $H = 600		! LAS change from 800 m to 600 m for KIR
 $a0 = 0.2
-!$xa = 10000000000000000 !characteristic length for constant accumulation
+$xa = 10000000000000000 !characteristic length for constant accumulation
 !$xa = 13333 !linear increase in accumulation 
 $melting = 0.001
 $wid = 20000
 $DivPosition = 0 !changing flux
-$xa = ((wid/2)^2 - DivPosition^2)/(2*DivPosition)
+!$xa = ((wid/2)^2 - DivPosition^2)/(2*DivPosition)
 $IceCorePosition = 0.0
 !$Ma = 0.0001 !changing accumulation
 
